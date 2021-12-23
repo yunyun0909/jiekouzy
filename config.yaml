@@ -1,0 +1,115 @@
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 17629041024
+      password: 050902
+  validate:
+    - equals: {code: 0}
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 17629041022
+      password: 050902
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 17629041024
+      password:
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 176290410221213
+      password: 050902
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 1762904
+      password: 050902
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 1762904102
+      password: 050902
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 176290410243
+      password: 050902
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 17629041024
+      password: 050902.
+  validate:
+    - equals: {code: 500}
+
+-
+  name: 获取token
+  request:
+    url: http://39.106.51.187:8080/login
+    mothod: post
+    headers:
+      Content-Type: application/x-www-form-urlencoded
+    params:
+      username: 17629041024
+      password: 3@!#32*&
+  validate:
+    - equals: {code: 500}

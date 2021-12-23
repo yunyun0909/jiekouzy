@@ -1,0 +1,1 @@
+{'name': '获取token', 'request': {'url': 'http://39.106.51.187:8080/login', 'mothod': 'post', 'headers': {'Content-Type': 'application/x-www-form-urlencoded'}, 'params': {'username': 176290410243, 'password': '050902'}}, 'validate': [{'equals': {'code': 500}}]}
